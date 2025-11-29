@@ -15,8 +15,8 @@ import java.util.List;
 @NoArgsConstructor
 @Document("order")
 public class Order {
-    private Integer userId;
-    private List<FoodItemDTO> foodItemDTOList;
+    private Integer orderId;
+    private List<FoodItemDTO> foodItemsList;
     private Restaurant restaurant;
     private UserDTO userDTO;
 }

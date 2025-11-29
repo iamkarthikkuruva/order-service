@@ -9,6 +9,7 @@ import lombok.NoArgsConstructor;
 @NoArgsConstructor
 public class FoodItemDTO {
     private int id;
+    private String itemName;
     private String itemDescription;
     private boolean isVeg;
     private Number price;
